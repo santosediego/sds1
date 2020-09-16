@@ -12,7 +12,7 @@ import com.santosediego.dspesquisa.entities.Game;
 import com.santosediego.dspesquisa.repositories.GameRepository;
 
 @Service // Aqui também pode o @Component
-public class GamesServices {
+public class GamesService {
 
 	@Autowired
 	private GameRepository repository;

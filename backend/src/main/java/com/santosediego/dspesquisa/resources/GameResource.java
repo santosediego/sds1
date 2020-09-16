@@ -9,14 +9,14 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.santosediego.dspesquisa.dto.GameDTO;
-import com.santosediego.dspesquisa.services.GamesServices;
+import com.santosediego.dspesquisa.services.GamesService;
 
 @RestController
 @RequestMapping(value = "/games")
 public class GameResource {
 
 	@Autowired
-	private GamesServices service;
+	private GamesService service;
 
 	/*
 	 * O controlador rest não tem acesso as entidades, somente ao DTO conforme a
