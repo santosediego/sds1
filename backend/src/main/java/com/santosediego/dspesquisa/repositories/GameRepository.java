@@ -5,7 +5,7 @@ import org.springframework.stereotype.Repository;
 
 import com.santosediego.dspesquisa.entities.Game;
 
-@Repository
+@Repository//Ou Component, porém o Repository é mais especififa para uma melhor semantica;
 public interface GameRepository extends JpaRepository<Game, Long>{
 
 }
