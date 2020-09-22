@@ -15,7 +15,6 @@ const Header = () => {
             <Image source={require('../../assets/logo.png')}/>
             <Text style={styles.textLogo1}>Big Game</Text>
             <Text style={styles.textLogo2}>Survey</Text>
-            <Text style={styles.textLogo2}>Survey</Text>
         </View>
       </TouchableWithoutFeedback>
     )
