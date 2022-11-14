@@ -74,5 +74,3 @@ yarn start
 # Autor
 
 Diego Santos
-
-(34) 9 9860-2508
